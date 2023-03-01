@@ -1,3 +1,6 @@
+"use strict"
+
+
 let scelta = prompt("Scegli tra pari e dispari");
 let numeroUtente = parseInt(prompt("Inserisci un numero da 1 a 5"));
 let numeroComputer = Math.floor(Math.random() * 5) + 1;
